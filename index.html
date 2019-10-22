@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>The Crystal Collector Game</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="">
+	</head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>s
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Righteous">
+	<body>
+			<div class="jumbotron" id="name">
+					<div class="container">
+							<h1> The Crystal Collector Game</h1>
+							<br>
+							<p>You will be given a random number at the start of the game.</p>
+                        	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                        	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                        	<p>The value of each crystal is hidden from you until you click on it.</p>
+                        	<p>Each time the game starts, the game will change the values of each crystal.</p>
+
+					</div>
+			</div>
+	
+				<div class="col-md-4" id="number">
+						<h2>Winning Number</h2>
+						<p id="winningNmbr">###</p>
+						<br>
+						<h3>Your Score</h3>
+						<p id="score">###</p>
+					</div>
+			
+			<br>
+
+				<div class="row text-center" id="crystals">
+					<div class="col-md-3">
+					<img src="assets/images/red-crystal.jpg" class="img-thumnail red" alt="Red Crystal" id="redCrystal" width="200" height="200" />
+					</div>
+					<div class="col-md-3">
+					<img src="assets/images/purple-crystal.jpg" class="img-thumbnail purple" alt="Purple Crystal" id="purpleCrystal" width="200" height="200" />
+					</div>
+					<div class="col-md-3">
+					<img src="assets/images/yellow-crystal.jpg" class="img-thumnail yellow" alt="Yellow Crystal" id="yellowCrystal" width="200" height="200" />
+					</div>
+					<div class="col-md-3">
+					  <img src="assets/images/green-crystal.jpg" class="img-thumnail green" alt="Green Crystal" id="greenCrystal" width="200" height="200" />
+					</div>
+				  </div>
+				  
+			<br>
+
+			<div class="col-md-4" id="score">
+					<h2 id="message"></h2>
+					<h3 id="wins">Wins: 0</h3>
+					<br>
+					<h3 id="losses">Losses: 0</h3>
+			</div>
+				</div>
+			
+			<br>
+				
+			<div class="row">
+						<div class="col-md-12" id="buttonRow">
+							<button type="button" class="btn btn-default btn-lg" id="playAgain">Play Again</button>
+						</div>
+				
+					</div>
+
+			<br>
+
+			</body>
+
+					
+				

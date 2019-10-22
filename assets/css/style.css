@@ -1,0 +1,61 @@
+
+body {
+    color: white;
+    background-color: white;
+    font-family: 'Righteous';
+	
+}
+
+.jumbotron {
+    background-color: #4248af;
+    margin-bottom: 25px;
+    min-height: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+#score {
+	font-size: 40px;
+	color: #4248af;
+	background: white;
+	text-align: center;
+}
+
+#number {
+	font-size: 40px;
+	color: #4248af;
+	background: white;
+	text-align: center;
+}
+
+#buttonRow {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#wins {
+	font-size: 40px;
+	background: white;
+	color: #4248af;
+	text-align: center;
+	
+}
+
+#losses {
+	font-size: 40px;
+    background: white;
+	color: #4248af;
+	text-align: center;
+
+}
+
+#playAgain {
+	background-color: #4248af;
+	border-color: #4248af;
+	color: white;
+	
+}
+
